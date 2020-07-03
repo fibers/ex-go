@@ -9,7 +9,7 @@ var a int // 3.定义全局变量和数据结构
 func test(strMap map[int]string) bool { // 4.定义函数
 
 	fmt.Println("Hello, playground: test!", strMap)
-	for p, _ := range strMap {
+	for p := range strMap {
 		strMap[p] = "Davis"
 	}
 
